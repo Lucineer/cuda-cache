@@ -1,0 +1,8 @@
+[package]
+name = "cuda-cache"
+version = "0.1.0"
+edition = "2021"
+description = "Caching — LRU eviction, TTL expiration, namespace isolation, cache warming, and hit/miss statistics"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
