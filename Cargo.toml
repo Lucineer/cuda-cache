@@ -2,7 +2,12 @@
 name = "cuda-cache"
 version = "0.1.0"
 edition = "2021"
-description = "Caching — LRU eviction, TTL expiration, namespace isolation, cache warming, and hit/miss statistics"
+description = "LRU cache with TTL, namespace isolation, cache stats"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-cache"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
